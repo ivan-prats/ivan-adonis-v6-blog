@@ -1,0 +1,16 @@
+{{--  Usage:
+  @component('components/timeline-phase', {start: '2014', end: '2016'})
+    <h3 class="m-0">
+      Hi hi this appears as the main section
+    </h3>
+  @endcomponent
+    --}}
+
+<div class="py-8 px-2 md:px-6 w-full space-y-6 border-primary-400 border rounded-2xl">
+  <div>
+    <span class="text-xl text-center font-medium">{{start}} ➡ {{end}}</span>
+  </div>
+  <div class="flex items-center">
+    {{{ $slots.main ? await $slots.main() : '' }}}
+  </div>
+</div>

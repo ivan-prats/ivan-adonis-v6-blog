@@ -1,0 +1,59 @@
+@layout()
+
+<section class="mt-8 max-w-4xl mx-auto prose prose-sm prose-blue">
+  <div class="flex items-center">
+    <img src="{{ASSETS_BASE_URL}}/images/foto-mia-fondo-cielo-azul.png" class="w-20 h-20 rounded-full" />
+    <div class="ml-4 sm:ml-8">
+      <h1>Hello world!</h1>
+      <p>
+        I'm <mark class="px-1 bg-primary-100 font-bold rounded-md">Ivan Prats</mark>. I am a Senior Full-Stack Web developer
+        here in Barcelona for big and small technologically ambitious projects.
+        <br>Entrepreneur at heart
+        <br>VDD (Value Driven Development)
+      </p>
+    </div>
+  </div>
+  <p>
+    Because that is not hard enough: I also try to stay in shape, happy, spend quality time with
+    my friends and family, and have some hobbies.
+  </p>
+  <p class="print:hidden">
+    I use this website as my CV, if you want to grab a copy: feel free to
+    <button class="px-1 py-0 bg-primary-100 text-primary-700 hover:bg-primary-200 hover:text-primary-800 rounded-md" type="button" onclick="window.print();">print it</button>.
+  </p>
+
+  <p class="hidden print:block">
+    You can find this information up to date in my personal website: <a href="https://ivanprats.dev/">ivanprats.dev</a>
+    <br>I try keeping it updated with my latest projects, repos, blogposts...
+    <br>Stay in touch, my GitHub profile is <a href="https://github.com/ivan-prats">ivan-prats</a>, and my email is <a href="mailto:hi@ivanprats.dev">hi@ivanprats.dev</a>
+  </p>
+
+  <div class="lg:grid lg:grid-cols-2 lg:gap-x-10">
+    <div class="space-y-12 sm:space-y-20">
+      <div>
+        @include('pages/home/tech-stack')
+      </div>
+
+      <div class="print:break-before-page">
+        @include('pages/home/patterns')
+      </div>
+
+      <div>
+        <h2><span class="text-xs text-gray-300">normal people's</span> Languages</h2>
+        <ul>
+          <li>Spanish: - Native</li>
+          <li>English: - Fluent (Cambridge C1 Advanced certificate)</li>
+          <li>Catalan: - Fluent</li>
+          <li>French: - B1</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="print:break-before-page">
+      @include('pages/home/timeline')
+    </div>
+  </div>
+
+</section>
+
+@end

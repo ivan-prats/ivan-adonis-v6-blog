@@ -1,0 +1,101 @@
+<h2 class="mt-16 pagebreak">Timeline</h2>
+<div>
+  @component('components/timeline-phase', {start: '2022', end: 'present'})
+  <div class="space-y-6">
+    <h3 class="m-0">
+      Senior Back-end Engineer in Wallbox
+    </h3>
+    <div>
+      <p class="m-0">Collaboration</p>
+      <ul class="mt-2">
+        <li>Working with many Back-end and Embedded system dev teams defining and scoping down a new custom Communication Protocol between IoT Devices and Back-end</li>
+      </ul>
+    </div>
+    <div>
+      <p class="mt-8">Infrastructure</p>
+      <ul class="mt-2">
+        <li>Scaling micro-services with AWS lambda functions</li>
+        <li>Building complex and rich Dashboards with <a href="https://www.datadoghq.com/">Datadog</a> custom metrics & logs</li>
+      </ul>
+    </div>
+  </div>
+  @endcomponent
+
+  @include('partials/timeline-separator')
+
+  @component('components/timeline-phase', {start: '2017', end: '2022'})
+  <div class="space-y-6">
+    <h3 class="m-0">
+      Head of Technology in an E-commerce & Retail Barcelona Startup that I co-founded
+    </h3>
+    <p>In charge of all Technology in the company. From the public website, to designing and implementing an internal Admin/ERP custom to the business.</p>
+    <div>
+      <p class="m-0">Customer-facing website</p>
+      <ul class="mt-2">
+        <li>Design/CSS implementation in <a href="https://tailwindcss.com/">TailwindCSS</a></li>
+        <li>Deciding the software to use, in order to leverage providers and SaaS to prioritise Business value</li>
+        <li>Comunicating between Business, Design/Branding, and Tech to achieve balance and maximise value and time-to-market</li>
+      </ul>
+    </div>
+    <div>
+      <p class="m-0">First ERP MVP</p>
+      <ul class="mt-2">
+        <li>Monolith in Node.js using <a href="https://sailsjs.com/">Sails.js</a> with MongoDB</li>
+        <li>Fast iterations, mainly focused on the Customer and the Product towards Product-Market fit</li>
+      </ul>
+    </div>
+    <div>
+      <p class="m-0">Leading the ERP 2.0 version. Applying DDD and Hexagonal Arquitecture in Typescript</p>
+      <ul class="mt-2">
+        <li><a href="https://m.signalvnoise.com/the-majestic-monolith/">Monolith Monolith</a> in Node.js using <a href="https://adonisjs.com/">Adonis.js</a></li>
+        <li>Progressively decoupling the old Monolith into acceptance tested and typed code</li>
+        <li>Agile methodology, 2 week sprints, grooming the tasks up to Acceptance Criteria</li>
+        <li>Leading a team of 2 other developers and designer</li>
+      </ul>
+    </div>
+    <div>
+      <p class="mt-8">Infrastructure</p>
+      <ul class="mt-2">
+        <li>Leveraging Heroku and application high-level design to automatise and reduce DevOps & costs and as much as possible. The Code is where the value is, not the Infrastructure.</li>
+        <li>Leveraging SQL and No-SQL databases depending on the use-case, using the Repository pattern</li>
+        <li>Setting up an automatic CI/CD Pipeline with Github Actions to gain quality and safety with PRs</li>
+      </ul>
+    </div>
+  </div>
+  @endcomponent
+
+  @include('partials/timeline-separator')
+
+  @component('components/timeline-phase', {start: '2020', end: '2021'})
+  <div>
+    <h3 class="m-0">
+      Freelance projects
+    </h3>
+    <p class="m-0">To name some front & back-end ones:</p>
+    <ul class="mt-2">
+      <li>Full Vue.js / Nuxt front-end for <a href="https://www.francacare.com/">Franca</a></li>
+      <li>Back-end Private Shopify APP to synch Google Sheet to the stocks and prices of 1M€+ E-commerce in Typescript</li>
+      <li>Setup and Front-end Shopify theme for <a href="https://www.laamusebrand.com/">Laamuse</a></li>
+    </ul>
+  </div>
+  @endcomponent
+
+  @include('partials/timeline-separator')
+
+  @component('components/timeline-phase', {start: '2014', end: '2016'})
+  <h3 class="m-0">
+    <a href="https://www.uc3m.es/master/industrial-engineering">Masters in Industrial
+      Engineering</a> in the UPC
+  </h3>
+  @endcomponent
+
+  @include('partials/timeline-separator')
+
+  @component('components/timeline-phase', {start: '2010', end: '2014'})
+  <h3 class="m-0">
+    <a href="https://enginyeriafisica.etsetb.upc.edu">Physics Engineering Degree</a>
+    in the UPC
+  </h3>
+  @endcomponent
+
+</div>
