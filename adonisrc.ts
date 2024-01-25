@@ -35,7 +35,7 @@ export default defineConfig({
     () => import('@adonisjs/shield/shield_provider'),
     () => import('@adonisjs/static/static_provider'),
     () => import('@adonisjs/lucid/database_provider'),
-    () => import('@adonisjs/auth/auth_provider')
+    () => import('@adonisjs/auth/auth_provider'),
   ],
 
   /*
@@ -46,7 +46,11 @@ export default defineConfig({
   | List of modules to import before starting the application.
   |
   */
-  preloads: [() => import('#start/routes'), () => import('#start/kernel'), () => import('#start/view')],
+  preloads: [
+    () => import('#start/routes'),
+    () => import('#start/kernel'),
+    () => import('#start/view'),
+  ],
 
   /*
   |--------------------------------------------------------------------------
@@ -62,6 +66,11 @@ export default defineConfig({
       {
         files: ['tests/unit/**/*.spec(.ts|.js)'],
         name: 'unit',
+        timeout: 2000,
+      },
+      {
+        files: ['tests/integration/**/*.spec(.ts|.js)'],
+        name: 'integration',
         timeout: 2000,
       },
       {

@@ -36,6 +36,7 @@
     "@adonisjs/eslint-config": "^1.2.1",
     "@adonisjs/prettier-config": "^1.2.1",
     "@adonisjs/tsconfig": "^1.2.1",
+    "@japa/api-client": "^2.0.2",
     "@japa/assert": "^2.1.0",
     "@japa/plugin-adonisjs": "^3.0.0",
     "@japa/runner": "^3.1.1",
@@ -67,7 +68,10 @@
     "better-sqlite3": "^9.3.0",
     "edge.js": "^6.0.1",
     "luxon": "^3.4.4",
-    "reflect-metadata": "^0.2.1"
+    "markdown-it": "^14.0.0",
+    "markdown-it-meta": "^0.0.1",
+    "reflect-metadata": "^0.2.1",
+    "slugify": "^1.6.6"
   },
   "eslintConfig": {
     "extends": "@adonisjs/eslint-config/app"

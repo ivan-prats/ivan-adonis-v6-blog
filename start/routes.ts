@@ -8,5 +8,8 @@
 */
 
 import router from '@adonisjs/core/services/router'
+const ProjectsController = () =>
+  import('../app/modules/project/infraestructure/projects_controller.js')
 
 router.on('/').render('pages/home/index')
+router.get('/projects', [ProjectsController, 'index'])
