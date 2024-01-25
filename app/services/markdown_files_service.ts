@@ -3,7 +3,7 @@ import fs from 'node:fs'
 import MarkdownIt from 'markdown-it'
 import meta from 'markdown-it-meta'
 
-const newMdInstance = () => new MarkdownIt({ html: true, linkify: true }).use(meta)
+const newMdInstance = () => new MarkdownIt({ html: true, linkify: true }).use(meta as any)
 
 export default class MarkdownFilesService {
   async import<MetadataI>(

@@ -1,6 +1,5 @@
 import Project from '../domain/project.js'
 import ProjectsRepository from '../domain/projects_repository.js'
-import type { ApplicationService } from '@adonisjs/core/types'
 import MarkdownFilesService from '#services/markdown_files_service'
 import path from 'node:path'
 import { inject } from '@adonisjs/core'
