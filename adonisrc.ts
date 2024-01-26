@@ -90,5 +90,13 @@ export default defineConfig({
       pattern: 'public/**',
       reloadServer: false,
     },
+    {
+      pattern: 'resources/blog-posts/**',
+      reloadServer: false,
+    },
+    {
+      pattern: 'resources/projects/**',
+      reloadServer: false,
+    },
   ],
 })
