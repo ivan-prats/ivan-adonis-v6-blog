@@ -1,12 +1,12 @@
 ---
 title: Full Admin RP for Retail Startup
 categories: ['Full stack', 'Adonis', 'Typescript', 'Domain Driven Design']
-link: 'https://projectlobster.com/collections/gafas-graduadas-hombre/products/mac'
+link: 'https://projectlobster.com'
 slug: 'projectlobster-garaje'
 image: ''
 dateStart: '2017-01-01'
 dateEnd: '2022-07-25'
-published: false
+published: true
 ---
 
 # Full Admin RP for Retail Startup

@@ -2,8 +2,8 @@
 title: What should a CTO (and the engineering team at that) do in a startup?
 slug: what-should-a-cto-do
 category: Startups
-teaser: The most important things a CTO of a startup has to do. The questions he, or she, should be asking. And what is the one thing that can never be forgotten, adding value to the customer.
-description: The most important things a CTO of a startup has to do. The questions he, or she, should be asking. And what is the one thing that can never be forgotten, adding value to the customer.
+teaser: The most important things a CTO of a startup has to do. The questions they should be asking. And what is the one thing that can never be forgotten, adding value to the customer.
+description: The most important things a CTO of a startup has to do. The questions they should be asking. And what is the one thing that can never be forgotten, adding value to the customer.
 published: true
 date: '2020-04-16'
 ---
@@ -12,7 +12,7 @@ date: '2020-04-16'
 
 Easy
 
-> A CTO has to bring value to the end customers ...through technology
+> A CTO has to bring value to the end customers ...through technology. While earning a profit.
 
 The key part: **_VALUE_**, not _technology_.
 
@@ -51,15 +51,15 @@ How long does your Marketing team need to generate a new landing page? They will
 
 It's not about technology, nor having the most beautiful and efficient code. It's about empowering the people that bring to your customer the value they are paying you for, through technology.
 
-### 2) How will the compoany be in 2, 5, 10 years? What technology will support it?
+### 2) How will the company look in 2, 5, 10 years? What needs and size will it have?
 
-Talk with the CEO and founders, and ask them how do they see the company in 2, 5, and 10 years. How will your company communicate with your customers? What will you sell? How?
+Talk with the CEO,founders, stakeholders, and ask them how do they see the company in 2, 5, and 10 years. How will your company communicate with your customers? What will you sell? How?
 
-All that will need technology. Both so that the operations don't run you to the ground, and so that you can deliver the highest level of service.
+All that will need technology and architecture. Both so that the operations don't run you to the ground, and so that you can deliver the highest level of service.
 
-Is your current tech stack prepared for it? How many users will you have? Can your servers scale? How does your support team scale with volume?
+Is your current tech stack and architecture prepared for it? How many users will you have? Can your servers scale? Can they hold the required performance at scale? Will it cost a fortune?
 
-What can you do so your company can take it, and make a profit at that?
+What can you do so your system can take it, and make a profit at that?
 
 ## Final words
 
