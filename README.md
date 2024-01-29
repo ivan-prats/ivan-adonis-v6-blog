@@ -14,7 +14,7 @@ It's written in Typescript because:
 But for a blog I could have chosen to do it in virtually any language I wanted to.
 
 I'm using [Adonis.js](https://adonisjs.com/) because it offers a good amount of packages that do all the boring stuff in a web framework: starting the server, handling requests, routing, Typescript processing, serving assets...
-But, if you are familiar with DDD / HA, most of the Adonis.js packages and code will be contained in the Infraestructure layer (like it should be). Leaving all the core (domain layer) code in pure Typescript.
+But, if you are familiar with DDD / HA, most of the Adonis.js packages and code will be contained in the Infrastructure layer (like it should be). Leaving all the core (domain layer) code in pure Typescript.
 
 ## Further reading
 

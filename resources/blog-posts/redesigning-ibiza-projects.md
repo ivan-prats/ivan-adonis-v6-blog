@@ -22,7 +22,7 @@ This blopost aims to explain the reasons behind this choice, and how was the des
 >
 > Virginia Charneco - Founder & Director
 
-<div class="w-80 mx-auto">
+<div class="w-80 mx-auto text-center flex items-center justify-center">
 
 ![Ibiza Projects: Fashion, Sport, Nutrition, Gastronomy, Beauty, Art, Business, and Personal Growth.    Gif taken from their About page.]({{ASSETS_BASE_URL}}/images/blog/ibizaprojects/about.gif)
 
