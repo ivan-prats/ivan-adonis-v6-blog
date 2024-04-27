@@ -1,6 +1,36 @@
 <h2 class="mt-16 pagebreak">Timeline</h2>
 <div>
-  @component('components/timeline-phase', {start: '2022', end: 'present'})
+  @component('components/timeline-phase', {start: 'Mar 2024', end: 'present'})
+  <div class="space-y-6">
+    <h3 class="m-0">
+      Tech Lead Engineer at Wallbox
+    </h3>
+    <div>
+      <p class="m-0">
+        In charge of coordinating and desinging the unification of all Users across the company under one authentication and account service.
+      </p>
+    </div>
+    <div>
+      <p class="mt-8">Collaboration</p>
+      <ul class="mt-2">
+        <li>Understanding the current system that 4 different teams were using separately</li>
+        <li>Drafting a migration strategy that minimises downtime while ensuring all User data is preserved</li>
+        <li>Managing a multi-team engineering project with different blockers and shared ressource while keeping Design, Product, and key stakeholders informed</li>
+      </ul>
+    </div>
+    <div>
+      <p class="mt-8">Architecture</p>
+      <ul class="mt-2">
+        <li>Defining the architecture of a company wide multi-product authentication system</li>
+        <li>Auditing and lowering risks and attack vectors</li>
+      </ul>
+    </div>
+  </div>
+  @endcomponent
+
+  @include('partials/timeline-separator')
+
+  @component('components/timeline-phase', {start: 'Aug 2022', end: 'Mar 2024'})
   <div class="space-y-6">
     <h3 class="m-0">
       Senior Back-end Engineer at Wallbox
@@ -16,6 +46,13 @@
       <ul class="mt-2">
         <li>Scaling micro-services with AWS lambda functions</li>
         <li>Building complex and rich Dashboards with <a href="https://www.datadoghq.com/">Datadog</a> custom metrics & logs</li>
+      </ul>
+    </div>
+    <div>
+      <p class="mt-8">Technical</p>
+      <ul class="mt-2">
+        <li>Writing scalable decoupled code in Go, Typescript (and some PHP) with DomainDrivenDesign and Hexagonal Architecture.</li>
+        <li>Implementing a multi-level testing structure (unit - integration - end2end) to ensure exhaustive, reliable & fast test suites</li>
       </ul>
     </div>
   </div>
