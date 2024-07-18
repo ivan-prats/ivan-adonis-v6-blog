@@ -8,7 +8,7 @@ It mainly follows the practises from [Domain Driven Design](https://en.wikipedia
 
 It's written in Typescript because:
 
-- it's typed and I love me some types (eventhough it does not offer a hard typing check at runtime)
+- it's typed and I-love-me-some-types (eventhough it does not offer a hard typing check at runtime)
 - I like it and it's my personal website
 
 But for a blog I could have chosen to do it in virtually any language I wanted to.

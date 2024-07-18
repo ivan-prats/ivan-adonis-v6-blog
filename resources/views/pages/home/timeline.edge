@@ -101,7 +101,7 @@
     <div>
       <p class="mt-8">Infrastructure</p>
       <ul class="mt-2">
-        <li>Leveraging Heroku and application high-level design to automatise and reduce DevOps & costs and as much as possible. The Code is where the value is, not the Infrastructure.</li>
+        <li>Leveraging Heroku and application high-level design to automatise and reduce DevOps & costs and as much as possible. The Infrastructure should support and allow the application code to bring value, not the other way around.</li>
         <li>Leveraging SQL and No-SQL databases depending on the use-case, using the Repository pattern</li>
         <li>Setting up an automatic CI/CD Pipeline with Github Actions to gain quality and safety with PRs</li>
       </ul>
@@ -127,20 +127,14 @@
 
   @include('partials/timeline-separator')
 
-  @component('components/timeline-phase', {start: '2014', end: '2016'})
-  <h3 class="m-0">
+  @component('components/timeline-phase', {start: '2010', end: '2016'})
+  <p class="m-0">
     <a href="https://www.uc3m.es/master/industrial-engineering">Masters in Industrial
       Engineering</a> in the UPC
-  </h3>
-  @endcomponent
-
-  @include('partials/timeline-separator')
-
-  @component('components/timeline-phase', {start: '2010', end: '2014'})
-  <h3 class="m-0">
+      <br>
     <a href="https://enginyeriafisica.etsetb.upc.edu">Physics Engineering Degree</a>
     in the UPC
-  </h3>
+  </p>
   @endcomponent
 
 </div>

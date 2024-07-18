@@ -6,36 +6,29 @@
     <div class="ml-4 sm:ml-8">
       <h1>Hello world</h1>
       <p>
-        I'm <mark class="px-1 bg-primary-100 font-bold rounded-md">Ivan Prats</mark>. I am a Senior Full-Stack Web developer
+        I'm <mark class="px-1 bg-primary-100 font-bold rounded-md">Ivan Prats</mark>. I am a Senior Full-Stack Web developer specialising in Back-end development
         for big and small technologically ambitious projects. Entrepreneur at heart. VDD (Value Driven Development)
       </p>
     </div>
   </div>
-  <p>
-    I live to solve valuable problems, and my speciality is doing so using technology and enabling technical people.
-  </p>
-  <p>
-    I take enjoyment from planning the architecture of a new system based on key stakeholders criteria, to discussing the UI/UX and developing the front-end and back-end of a single button. Moving from team to team or department to department to be able to get the full picture of a feature or initiative.
-  </p>
-  <p>
-    I believe in Agile applied to all aspects of life, from how technical teams should work, to how I organised the renovations of my flat. Beyond SCRUM and other air-tight processes, I rather believe in the true meaning of the Agile manifesto and its values, as well as how their evolution into Extreme Programming.
-  </p>
-  <p>
-    Born & raised in Barcelona and open to the world.
-  </p>
-  <p>
-    I also try to stay in shape, happy, spend quality time withmy friends and family, and have some hobbies.
-  </p>
+  <p>I live to solve hard & valuable problems, and my speciality is doing so using technology and enabling talented technical people.</p>
+  <p>I take enjoyment from planning the architecture of a new system based on key stakeholders criteria, to discussing the UI/UX and developing the front-end and back-end of a single button. Moving from team to team or department to department to be able to get the full picture of a feature or initiative.</p>
+  <p>I believe in Agile applied to all aspects of life, from how technical teams should work, to how I organised the renovations of my flat. Beyond SCRUM and other air-tight processes, I rather believe in the true meaning of the Agile manifesto and its values, as well as how their evolution into Extreme Programming.</p>
+  <p>Born & raised in Barcelona and open to the world.</p>
+  <p>I also try to stay in shape, happy, spend quality time with my friends and family, and have some hobbies like playing tennis and traveling.</p>
+
   <p class="print:hidden">
     I use this website as my CV, if you want to grab a copy: feel free to
     <button class="px-1 py-0 bg-primary-100 text-primary-700 hover:bg-primary-200 hover:text-primary-800 rounded-md" type="button" onclick="window.print();">print it</button>.
   </p>
 
-  <p class="hidden print:block">
-    You can find this information up to date in my personal website: <a href="https://ivanprats.dev/">ivanprats.dev</a>
-    <br>I try keeping it updated with my latest projects, repos, blogposts...
-    <br>Stay in touch, my GitHub profile is <a href="https://github.com/ivan-prats">ivan-prats</a>, and my email is <a href="mailto:hi@ivanprats.dev">hi@ivanprats.dev</a>
-  </p>
+  <div class="hidden print:block">
+    <h2>Contact</h2>
+    <p class="mt-2">
+      You can find this information up to date in my personal website: <a href="https://ivanprats.dev/">ivanprats.dev</a>
+      <br>Stay in touch, my GitHub profile is <a href="https://github.com/ivan-prats">ivan-prats</a>, and my email is <a href="mailto:hi@ivanprats.dev">hi@ivanprats.dev</a>
+    </p>
+  </div>
 
   <div class="lg:grid lg:grid-cols-2 lg:gap-x-10">
     <div>
@@ -47,17 +40,18 @@
         @include('pages/home/tech-stack')
       </div>
 
-      <div class="print:break-before-page">
+      <div>
         @include('pages/home/patterns')
       </div>
 
       <div>
-        <h2><span class="text-xs text-gray-300">normal people's</span> Languages</h2>
+        <h2>Languages <span class="text-xs text-gray-300">for normal people...</span> </h2>
         <ul>
           <li>Spanish - Native</li>
           <li>English - Fluent (Cambridge C1 Advanced certificate)</li>
           <li>Catalan - Fluent</li>
           <li>French - C1</li>
+          <li>Portuguese - B1</li>
         </ul>
       </div>
     </div>
