@@ -1,7 +1,7 @@
-<h2 class="mt-16 pagebreak">Timeline</h2>
+<h2 class="mt-16 print:mt-10">Timeline</h2>
 <div>
   @component('components/timeline-phase', {start: 'Mar 2024', end: 'present'})
-  <div class="space-y-6">
+  <div class="space-y-6 print:space-y-3">
     <h3 class="m-0">
       Tech Lead Engineer at Wallbox
     </h3>
@@ -23,6 +23,14 @@
       <ul class="mt-2">
         <li>Defining the architecture of a company wide multi-product authentication system</li>
         <li>Auditing and lowering risks and attack vectors</li>
+        <li>Implementing asynchronous event-driven communications</li>
+      </ul>
+    </div>
+    <div>
+      <p class="mt-8">Tech stack</p>
+      <ul class="mt-2">
+        <li>For infra: AWS with EC2, Aurora, SQS, SNS, Elasticache</li>
+        <li>Updating several services in: Golang, PHP and Typescript</li>
       </ul>
     </div>
   </div>
@@ -31,7 +39,7 @@
   @include('partials/timeline-separator')
 
   @component('components/timeline-phase', {start: 'Aug 2022', end: 'Mar 2024'})
-  <div class="space-y-6">
+  <div class="space-y-6 print:space-y-3">
     <h3 class="m-0">
       Senior Back-end Engineer at Wallbox
     </h3>
@@ -44,7 +52,7 @@
     <div>
       <p class="mt-8">Infrastructure</p>
       <ul class="mt-2">
-        <li>Scaling micro-services with AWS lambda functions</li>
+        <li>Scaling micro-services with AWS lambda functions, EC2, Aurora SQL and Elasticache</li>
         <li>Building complex and rich Dashboards with <a href="https://www.datadoghq.com/">Datadog</a> custom metrics & logs</li>
       </ul>
     </div>
@@ -61,7 +69,7 @@
   @include('partials/timeline-separator')
 
   @component('components/timeline-phase', {start: '2017', end: '2022'})
-  <div class="space-y-6">
+  <div class="space-y-6 print:space-y-3">
     <h3 class="m-0">
       Head of Technology in an E-commerce & Retail Barcelona Startup that I co-founded
     </h3>

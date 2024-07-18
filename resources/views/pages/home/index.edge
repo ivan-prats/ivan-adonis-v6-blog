@@ -4,18 +4,27 @@
   <div class="flex items-center">
     <img src="{{ASSETS_BASE_URL}}/images/foto-mia-fondo-cielo-azul.png" class="w-20 h-20 rounded-full" />
     <div class="ml-4 sm:ml-8">
-      <h1>Hello world!</h1>
+      <h1>Hello world</h1>
       <p>
         I'm <mark class="px-1 bg-primary-100 font-bold rounded-md">Ivan Prats</mark>. I am a Senior Full-Stack Web developer
-        here in Barcelona for big and small technologically ambitious projects.
-        <br>Entrepreneur at heart
-        <br>VDD (Value Driven Development)
+        for big and small technologically ambitious projects. Entrepreneur at heart. VDD (Value Driven Development)
       </p>
     </div>
   </div>
   <p>
-    Because that is not hard enough: I also try to stay in shape, happy, spend quality time with
-    my friends and family, and have some hobbies.
+    I live to solve valuable problems, and my speciality is doing so using technology and enabling technical people.
+  </p>
+  <p>
+    I take enjoyment from planning the architecture of a new system based on key stakeholders criteria, to discussing the UI/UX and developing the front-end and back-end of a single button. Moving from team to team or department to department to be able to get the full picture of a feature or initiative.
+  </p>
+  <p>
+    I believe in Agile applied to all aspects of life, from how technical teams should work, to how I organised the renovations of my flat. Beyond SCRUM and other air-tight processes, I rather believe in the true meaning of the Agile manifesto and its values, as well as how their evolution into Extreme Programming.
+  </p>
+  <p>
+    Born & raised in Barcelona and open to the world.
+  </p>
+  <p>
+    I also try to stay in shape, happy, spend quality time withmy friends and family, and have some hobbies.
   </p>
   <p class="print:hidden">
     I use this website as my CV, if you want to grab a copy: feel free to
@@ -29,6 +38,10 @@
   </p>
 
   <div class="lg:grid lg:grid-cols-2 lg:gap-x-10">
+    <div>
+      @include('pages/home/timeline')
+    </div>
+
     <div class="space-y-12 sm:space-y-20">
       <div>
         @include('pages/home/tech-stack')
@@ -41,16 +54,12 @@
       <div>
         <h2><span class="text-xs text-gray-300">normal people's</span> Languages</h2>
         <ul>
-          <li>Spanish: - Native</li>
-          <li>English: - Fluent (Cambridge C1 Advanced certificate)</li>
-          <li>Catalan: - Fluent</li>
-          <li>French: - B1</li>
+          <li>Spanish - Native</li>
+          <li>English - Fluent (Cambridge C1 Advanced certificate)</li>
+          <li>Catalan - Fluent</li>
+          <li>French - C1</li>
         </ul>
       </div>
-    </div>
-
-    <div class="print:break-before-page">
-      @include('pages/home/timeline')
     </div>
   </div>
 
